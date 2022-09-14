@@ -1,0 +1,69 @@
+_putchar.c.txt
+
+Who has access
+
+A
+
+System properties
+
+Type
+
+Text
+
+Size
+
+259 bytes
+
+Storage used
+
+259 bytes
+
+Location
+
+0x02. C - Functions, nested loops
+
+Owner
+
+Antony Bahati
+
+Modified
+
+Sep 13, 2022 by Antony Bahati
+
+Opened
+
+12:31 PM by me
+
+Created
+
+Sep 13, 2022
+
+No description
+
+Viewers can download
+
+#include <unistd.h>
+
+
+
+/**
+
+ * _putchar - writes the character c to stdout
+
+ * @c: The character to print
+
+ *
+
+ * Return: On success 1.
+
+ * On error, -1 is returned, and errno is set appropriately.
+
+ */
+
+int _putchar(char c)
+
+{
+
+  return (write(1, &c, 1));
+
+}
